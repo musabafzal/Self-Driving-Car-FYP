@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="data_extractor" type="data_extractor.py" name="data_extractor" output="screen"/>
+</launch>

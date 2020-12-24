@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="drive_by_wire" type="dbw_controller.py" name="dbw_controller" output="screen"/>
+    <node ns="arduino_nano" name="dbw_input_pub" pkg="rosserial_python" type="serial_node.py" args="_port:=/dev/ttyUSB0" />
+    <node ns="arduino_uno" name="dbw_output_sub" pkg="rosserial_python" type="serial_node.py" args="_port:=/dev/ttyACM0" />
+</launch>

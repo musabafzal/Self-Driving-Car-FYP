@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="remote_control" type="remote_control.py" name="remote_control" output="screen"/>
+</launch>

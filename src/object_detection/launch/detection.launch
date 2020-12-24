@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="object_detection" type="detection_with_distance.py" name="detection_with_distance" output="screen"/>
+</launch>

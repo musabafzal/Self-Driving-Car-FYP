@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="mode" value="autonomous" />
+    <include file="$(find kinect)/launch/kinect.launch"/>
+    <include file="$(find drive_by_wire)/launch/dbw.launch"/>
+    <include file="$(find battery_indicator)/launch/battery.launch"/>
+    <include file="$(find data_extractor)/launch/data_extractor.launch"/>
+    <include file="$(find camera)/launch/camera.launch"/>
+    <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch"/>
+    <include file="$(find object_detection)/launch/detection.launch"/>
+    <include file="$(find behavior_cloning)/launch/cloning.launch"/>
+    <include file="$(find remote_control)/launch/remote.launch"/>    
+</launch>

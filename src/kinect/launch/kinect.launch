@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- <node pkg="kinect" type="kinect_publisher.py" name="kinect_publisher" output="screen"/> -->
+    <node pkg="kinect" type="kinect_display.py" name="kinect_display"  output="screen"/>
+</launch>

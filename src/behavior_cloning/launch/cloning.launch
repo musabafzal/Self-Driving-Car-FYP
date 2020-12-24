@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- <node pkg="behavior_cloning" type="behavior_cloning.py" name="behavior_cloning"/> -->
+    <!-- <node pkg="behavior_cloning" type="behavior_cloning_server.py" name="behavior_cloning_server" /> -->
+    <node pkg="behavior_cloning" type="mode_setter.py" name="mode_setter" output="screen"/>
+</launch>

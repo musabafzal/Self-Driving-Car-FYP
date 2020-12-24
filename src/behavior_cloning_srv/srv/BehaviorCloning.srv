@@ -1,0 +1,5 @@
+sensor_msgs/Image input
+---
+int16 steering
+int16 accelerator
+int16 brake

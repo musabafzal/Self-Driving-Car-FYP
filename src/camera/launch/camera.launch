@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="camera" type="left_camera.py" name="left_camera"/>
+    <!-- <node pkg="camera" type="right_camera.py" name="right_camera"/> -->
+</launch>

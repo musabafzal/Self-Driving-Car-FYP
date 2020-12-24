@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="battery_indicator" type="battery_indicator.py" name="battery_indicator" output="screen"/>
+</launch>
